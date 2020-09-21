@@ -1,0 +1,160 @@
+.bg-image-bag{
+  
+      @include media-breakpoint-up(lg) {
+        background-image: url('../../img/specs/bag.png');
+        background-repeat: no-repeat;
+        background-size: cover center;
+        background-position: center;
+      }
+      @include media-breakpoint-down(md) {
+        background-image: url('../../img/specs/bag-mobil.png');
+        background-repeat: no-repeat;
+        background-size: cover center;
+        background-position: center;
+        width: 1000px;
+      }
+      
+      
+}
+
+
+
+.bg-footer-carousel{
+  background-image: url('../../img/specs/foot-carousel.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+   
+  @include media-breakpoint-down(md) {
+    background-image: url('../../img/specs/foot-carousel.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%;
+  }
+}
+// input[type=checkbox] {
+//   display: none;
+// }
+
+// .container img {
+//   margin: 100px;
+//   transition: transform 0.25s ease;
+//   cursor: zoom-in;
+// }
+
+// input[type=checkbox]:checked ~ label > img {
+//   transform: scale(2);
+//   cursor: zoom-out;
+// }
+
+
+// .bottom-left {
+//   position: absolute;
+//   bottom: 8px;
+//   left: 16px;
+// }
+
+// .top-left {
+//   position: absolute;
+//   top: 8px;
+//   left: 16px;
+// }
+
+// .top-right {
+//   position: absolute;
+//   top: 8px;
+//   right: 16px;
+// }
+
+// .bottom-right {
+//   position: absolute;
+//   bottom: 8px;
+//   right: 16px;
+// }
+
+// .centered {
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+// }
+
+
+.bag-image{
+  text-align: center;
+  position:relative;
+  display: table;
+  margin: 80px auto;
+  padding:0 70px;
+  span{
+    display: inline-block;
+    position: absolute;
+    &.text-1{
+      top: 26%;
+      left: 70px;
+      @media only screen and (max-width: 767px) {
+        top: 24%;
+        left: 42px;
+      }
+    }
+
+    &.text-2{
+      top: 58%;
+      left: -5px;
+      @media only screen and (max-width: 767px) {
+        top: 56%;
+        left: 22px;
+      }
+    }
+    &.text-3{
+      top: 70%;
+      left: 0px;
+      @media only screen and (max-width: 767px) {
+        top: 68%;
+        left: 9px;
+      }
+    }
+    &.text-4{
+      top: 82%;
+      left: -27px;
+      @media only screen and (max-width: 767px) {
+        top: 80%;
+        left: 5px;
+      }
+    }
+    &.text-5{
+      top: 24%;
+      right: 5px;
+      @media only screen and (max-width: 767px) {
+        top: 23%;
+        right: 25px;
+      }
+    }
+    &.text-6{
+      top: 38%;
+      right: 40px;
+      @media only screen and (max-width: 767px) {
+        top: 36%;
+        right: 30px;
+      }
+    }
+    &.text-7{
+      top: 67%;
+      right: -15px;
+      @media only screen and (max-width: 767px) {
+        top: 58%;
+        right: 22px;
+      }
+    }
+    &.text-8{
+      top: 76%;
+      right: 10px;
+      @media only screen and (max-width: 767px) {
+        top: 75%;
+        right: 20px;
+      }
+    }
+  }
+}
+
+// fade//
